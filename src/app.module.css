@@ -1,0 +1,11 @@
+.app {
+  display: flex;
+}
+
+.wrapper {
+  flex: 1;
+}
+
+.main {
+  position: relative;
+}

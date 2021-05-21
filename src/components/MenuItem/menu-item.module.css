@@ -1,0 +1,18 @@
+.menu-item-link {
+  color: white;
+  font-size: 12px;
+  font-weight: 300;
+  text-align: center;
+  display: block;
+  padding: 15px 0;
+  text-decoration: none;
+}
+
+.menu-item-link img {
+  margin-bottom: 7px;
+}
+
+.menu-item-link-active {
+  background-color: #002c49;
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.15);
+}

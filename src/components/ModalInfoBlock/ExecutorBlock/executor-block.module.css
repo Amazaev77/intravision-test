@@ -1,0 +1,46 @@
+.executor-block {
+  margin-bottom: 32px;
+  position: relative;
+}
+.executor-title {
+  color: #a09fa8;
+  font-size: 14px;
+  font-weight: 300;
+  margin-bottom: 7px;
+}
+.executor-name {
+  font-size: 14px;
+}
+
+.executor-edit-icon {
+  display: block;
+  position: absolute;
+  right: -35px;
+  top: 21px;
+  width: 18px;
+  cursor: pointer;
+}
+
+.executor-list {
+  background-color: white;
+  width: 110px;
+  position: absolute;
+  top: 25px;
+  left: -10px;
+  padding: 12px 5px;
+  box-shadow: 0 0 17px 0 rgba(0, 0, 0, 0.75);
+  border-radius: 8px;
+}
+
+.executor-list div {
+  flex: 1;
+  text-align: center;
+  margin-bottom: 6px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: all 0.15s;
+}
+
+.executor-list div:hover {
+  background-color: #e8e8e8;
+}

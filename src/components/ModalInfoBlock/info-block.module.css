@@ -1,0 +1,83 @@
+.info-block {
+  padding: 28px 47px 0 27px;
+  border-left: 1px solid #d7dce0;
+  width: 130px;
+}
+
+.info-block-status {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  font-weight: 500;
+  margin-bottom: 39px;
+  color: #525460;
+  position: relative;
+}
+
+.info-block-edit {
+  display: block;
+  position: absolute;
+  right: -35px;
+  width: 18px;
+  cursor: pointer;
+}
+
+.info-block-circle {
+  width: 11px;
+  height: 11px;
+  background-color: #fff;
+  border-radius: 100%;
+  margin-right: 11px;
+}
+.info-block-box {
+  margin-bottom: 32px;
+}
+
+.info-block-box-title {
+  color: #a09fa8;
+  font-size: 14px;
+  font-weight: 300;
+  margin-bottom: 7px;
+}
+
+.info-block-box-name {
+  font-size: 14px;
+}
+
+.info-block-tag {
+  height: 20px;
+  color: #9da1aa;
+  font-size: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  border: 1px solid #9da1aa;
+  background-color: #ffffff;
+  box-sizing: border-box;
+  margin-bottom: 3px;
+}
+
+.info-block-status-list {
+  background-color: white;
+  width: 100px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: green;
+  padding: 12px 0;
+  box-shadow: 0 0 17px 0 rgba(0, 0, 0, 0.75);
+  border-radius: 8px;
+}
+
+.info-block-status-list div {
+  flex: 1;
+  text-align: center;
+  margin-bottom: 6px;
+  cursor: pointer;
+  transition: all 0.15s;
+}
+
+.info-block-status-list div:hover {
+  background-color: #e8e8e8;
+}

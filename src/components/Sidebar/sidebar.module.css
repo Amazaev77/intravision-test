@@ -1,0 +1,24 @@
+.sidebar-inner {
+  max-width: 95px;
+  width: 100%;
+}
+
+.sidebar {
+  max-width: 95px;
+  width: 100%;
+  background-color: #002137;
+  height: 100vh;
+  padding-top: 16px;
+  position: fixed;
+}
+
+.sidebar-logo {
+  display: block;
+  margin: 0 auto 20px;
+}
+
+.sidebar-menu {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}

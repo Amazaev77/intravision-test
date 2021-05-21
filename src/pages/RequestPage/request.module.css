@@ -1,0 +1,13 @@
+.request-block {
+  padding: 25px 0 0 3px;
+}
+
+.create-request-button {
+  width: 180px;
+  padding: 11px 0 11px;
+  font-size: 16px;
+  margin-left: 262px;
+  font-weight: 300;
+  display: block;
+  margin-bottom: 27px;
+}

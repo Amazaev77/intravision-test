@@ -1,0 +1,40 @@
+.modal-block {
+  width: 60%;
+  height: 100%;
+  position: fixed;
+  top: 65px;
+  right: 0;
+  background-color: #ecf3f7;
+  opacity: 1;
+}
+
+.modal-header {
+  background-color: #002c49;
+  padding: 13px 31px 12px 36px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.modal-title {
+  color: white;
+  font-size: 18px;
+}
+
+.modal-cancel img {
+  width: 16px;
+  height: 16px;
+  cursor: pointer;
+}
+
+.modal-content {
+  padding: 0 31px 0 36px;
+}
+
+.modal-content-wrap {
+  padding-top: 64px;
+}
+
+.btn-save {
+  width: 150px;
+  padding: 11px 0;
+}
